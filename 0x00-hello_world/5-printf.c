@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- * writing a script with printf
- * must return 0
+ * main - writing a script with printf
  * no warnings when using -Wall gcc option
  * Return: zero
  */

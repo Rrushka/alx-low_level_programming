@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * commenting for four
+ * main - commenting for four
  * Comment on main
  * Return: zero
  */
