@@ -3,6 +3,7 @@
  * writing a script with printf
  * must return 0
  * no warnings when using -Wall gcc option
+ * Return: zero
  */
 int main(void)
 {

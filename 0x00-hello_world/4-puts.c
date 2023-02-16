@@ -2,6 +2,7 @@
 /**
  * commenting for four
  * Comment on main
+ * Return: zero
  */
 int main(void)
 {
