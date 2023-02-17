@@ -14,7 +14,7 @@ int main(void)
 
 	for (numz = 0; numz < 10; numz++)
 	{
-		putchar(numz);
+		putchar(48 + numz);
 	}
 	putchar('\n');
 	return (0);
