@@ -9,14 +9,13 @@
  */
 int main(void)
 {
-	char aTOz = 'a';
+	char aTOz;
 
-	while (aTOz <= 'z')
+	for (aTOz = 'a'; aTOz <= 'z'; aTOz++)
 	{
 	if (aTOz != 'q' && aTOz != 'e')
 	{
 		putchar(aTOz);
-		aTOz++;
 	}
 	}
 	putchar('\n');
