@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <time.h>
 /* task 5 - print numbers */
 
 /**
@@ -10,11 +10,13 @@
  */
 int main(void)
 {
-	int n;
+	char num;
 
-	for (n = 0; n < 10; n++)
+	while (num = '0' && num <= '9')
 	{
-		printf("%d", n);
+		putchar(num);
+		num++;
 	}
+	putchar('\n');
 	return (0);
 }
