@@ -20,11 +20,12 @@ int main(void)
 		putchar(48 + (x % 10));
 		putchar(48 + (y % 10));
 		putchar(48 + (z % 10));
-		putchar(',');
-		putchar(' ');
 
 		if (x == 7 && y == 8 && z == 9)
 			continue;
+
+		putchar(',');
+		putchar(' ');
 	}
 	}
 	}
