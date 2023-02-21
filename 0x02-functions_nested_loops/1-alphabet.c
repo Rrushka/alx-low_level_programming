@@ -3,11 +3,11 @@
 /* task 1 */
 
 /**
- * main - entry
+ * print_alphabet - entry
  * print alphabet using only 2 putchar
  * Return: 0
  */
-int main(void)
+void print_alphabet(void)
 {
 	char aTOz;
 
@@ -15,7 +15,6 @@ int main(void)
 	{
 		_putchar(aTOz);
 	}
-	print_alphabet();
 	_putchar('\n');
 	return (0);
 }
