@@ -1,11 +1,8 @@
 #include "main.h"
-
-/* print alphabet x10 */
+/* task 2 */
 
 /**
- * print_alphabet_x10 - start
- * only use _putchar twice
- * no returns because void return type
+ * use 2 putchar to print alphabet x10
  */
 void print_alphabet_x10(void)
 {
@@ -18,7 +15,7 @@ void print_alphabet_x10(void)
 	{
 		_putchar(alpha10);
 	}
-		_putchar('\n');
-		n++;
+	_putchar('\n');
+	n++;
 	}
 }
