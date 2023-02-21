@@ -15,6 +15,7 @@ int main(void)
 	{
 		_putchar(aTOz);
 	}
+	print_alphabet();
 	_putchar('\n');
 	return (0);
 }
