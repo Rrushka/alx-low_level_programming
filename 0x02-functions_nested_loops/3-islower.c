@@ -3,7 +3,7 @@
 
 /**
  * _islower - start
- * c: variable 
+ * c: variable
  * check for lower case character
  * Return: 1 if true and 0 if not
  */
