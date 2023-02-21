@@ -2,7 +2,9 @@
 /* task 2 */
 
 /**
+ * print_alphabet_x10 - start
  * use 2 putchar to print alphabet x10
+ * no return because void return type
  */
 void print_alphabet_x10(void)
 {
