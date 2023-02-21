@@ -3,8 +3,10 @@
 
 /**
  * _islower - start
+ * c - variable that the if statement is used to see if its upper of lower case
  * check for lower case character
- * Return: 0
+ * Return: 1 if true
+ * Return: 0 if not
  */
 int _islower(int c)
 {
