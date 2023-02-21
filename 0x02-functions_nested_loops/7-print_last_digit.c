@@ -8,10 +8,9 @@
  * print absolute value of an integer
  * Return: 0
  */
-int print_last_digit(int last)
+int print_last_digit(int n)
 {
-	int n;
-	last = n % 10;
+	int last = n % 10;
 
 	if (last < 0)
 	{
