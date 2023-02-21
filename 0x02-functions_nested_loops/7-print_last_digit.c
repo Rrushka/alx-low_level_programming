@@ -5,12 +5,14 @@
 /**
  * print_last_digit - start
  * last: the last digit
+ * n: input
  * print absolute value of an integer
  * Return: 0
  */
 int print_last_digit(int n)
 {
-	int last = n % 10;
+	int last;
+	last = n % 10;
 
 	if (last < 0)
 	{
