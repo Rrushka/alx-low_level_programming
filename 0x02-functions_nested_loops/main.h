@@ -4,6 +4,6 @@
 /* filename: main.h
  * this is a header file that declares all the functions that i will use in 0x02-functions_nested_loops */
 
-int putchar(int char)
+int _putchar(char c);
 
 #endif
