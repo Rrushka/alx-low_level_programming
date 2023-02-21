@@ -4,9 +4,8 @@
 
 /**
  * _isalpha - function0
- * int c - check
- * Return: 1 if true
- * Return: 0 if not true
+ * c: to be checked
+ * Return: 1 or 0
  */
 int _isalpha(int c)
 {
