@@ -10,21 +10,24 @@
  */
 void print_diagonal(int n)
 {
-	int space;
 	int x;
-
+	int y;
+	char slash = '\';
+	
 	if (n > 0)
 	{
 	for (x = 0; x < n; x++)
 	{
-	for (space = 0; space < n; space++)
+	for (y = 0; y < n; y++)
+	{
+	if (y == x)
+	{
+		_putchar("%c", slash);
+	}
+	else
 	{
 		_putchar(' ');
-		_putchar('\\');
 	}
-	if (x == n - 1)
-	{
-		continue;
 	}
 	_putchar('\n');
 	}
