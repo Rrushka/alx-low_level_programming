@@ -14,6 +14,7 @@ void print_square(int size)
 {
 	int l; /* length */
 	int b;
+	char hash = '#';
 
 	if (size > 0)
 	{
@@ -21,7 +22,7 @@ void print_square(int size)
 	{
 	for (b = 0; b < size; b++)
 	{
-		_putchar('#');
+		_putchar(hash);
 	}
 	if (l == size - 1)
 	{
