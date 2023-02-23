@@ -7,7 +7,6 @@
  * @n: number of times '_' is printed
  * only _putchar to print
  * if n <= 0 print a new line (\n)
- * Return: 0
  */
 void print_line(int n)
 {
@@ -17,8 +16,8 @@ void print_line(int n)
 	{
 	while (m < n)
 	{
-		_putchar('_');
 		m++;
+		_putchar('_');
 	}
 	}
 	_putchar('\n');
