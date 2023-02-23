@@ -6,7 +6,7 @@
  * more_numbers - print numbers from 0-14 x10
  * use _putchar 3 times
  */
-int more_numbers(void)
+void more_numbers(void)
 {
 	int r;
 	int c;
