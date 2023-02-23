@@ -24,7 +24,7 @@ int largest_number(int a, int b, int c)
 		largest = c;
 	}
 	}
-	else 
+	else
 	{
 	if (b > c)
 	{
@@ -35,5 +35,5 @@ int largest_number(int a, int b, int c)
 		largest = c;
 	}
 	}
-	return (0);	
+	return (largest);
 }
