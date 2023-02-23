@@ -12,7 +12,7 @@
  */
 void print_square(int size)
 {
-	int l;
+	int l; /* length */
 	int b;
 
 	if (size > 0)
