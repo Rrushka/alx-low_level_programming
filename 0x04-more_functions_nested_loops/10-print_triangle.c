@@ -10,26 +10,24 @@
 void print_triangle(int size)
 {
 	int space;
-	int x; /* this x represents the # */
+	int x;
+	char h = '#';
+	int y;
 
 	if (size > 0)
 	{
-	for (x = size; x <= size; x++)
+	for (x = 1; x <= size; x++)
 	{
 	for (space = size - x; space > 0; space--)
 	{
 		_putchar(' ');
 	}
-	for (space = 0; space < x; space++)
+	for (y = 1; y <= x; y++)
 	{
-		_putchar('#');
+		_putchar(h);
 	}
-	if (size == x)
-	{
-		continue;
 	}
 	_putchar('\n');
-	}
 	}
 	_putchar('\n');
 }
