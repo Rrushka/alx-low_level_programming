@@ -12,7 +12,7 @@ void print_diagonal(int n)
 {
 	int x;
 	int y;
-	char slash = '\\';
+	char s = '\\';
 
 	if (n > 0)
 	{
@@ -21,7 +21,7 @@ void print_diagonal(int n)
 	for (x = 0; x < y; x++)
 	{
 		_putchar(' ');
-		_putchar(slash);
+		_putchar(s);
 	}
 	if (y == n - 1)
 	{
