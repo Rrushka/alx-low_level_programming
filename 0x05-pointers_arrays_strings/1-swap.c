@@ -15,4 +15,5 @@ void swap_int(int *a, int *b)
 	
 	*a = *b; 
 	
-	*b = swap; /* swap = a sp b is now a's value */
+	*b = store; /* swap = a sp b is now a's value */
+}
