@@ -7,11 +7,7 @@
  * @str: string
  */
 void _puts(char *str)
-{
-	do
-	{
-		_putchar(*str);
-	}
+}
 	while (*str)
 	{
 		*str++;
