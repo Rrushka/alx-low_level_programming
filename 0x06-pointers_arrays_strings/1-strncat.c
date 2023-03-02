@@ -1,14 +1,15 @@
 #include "main.h"
 
-/* task 0 */
+/* task 1 */
 
 /**
- * _strcat - concatenates two strings
+ * _strncat - concatenates 2 strings using n bytes from src
  * @dest: string 1
  * @src: string 2
+ * @n: number of bytes
  * Return: pointer to dest
  */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i;
 	int length;
@@ -16,11 +17,13 @@ char *_strcat(char *dest, char *src)
 	length = 0;
 
 	while (dest[i++])
+	{
 		length++;
+	}
 
 	i = 0;
 
-	while (src[i])
+	while (src[i] && i < n)
 	{
 		i++;
 		dest[length++] = src[i];
