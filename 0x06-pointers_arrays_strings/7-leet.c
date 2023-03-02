@@ -17,8 +17,8 @@ char *leet(char *s)
 	{
 	for (j = 0; j <= 7; j++)
 	{
-	if (s[i] == s2[j] || s[i] == s2[j + 32])
-		s[i] = j + 48;
+	if (s[i] == s2[j] || s[i] == s2[j] + 32)
+		s[i] = ij + 48;
 	}
 	}
 	return (s);
