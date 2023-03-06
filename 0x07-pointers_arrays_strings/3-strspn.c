@@ -5,15 +5,15 @@
 /**
  * _strspn - get the length of a prefix substring
  * @s: string
- * @accept: prefix 
+ * @accept: prefix
  * Return: no. of bytes
  */
-unsigned int *_strspn(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	int i;
-	int byte;
+	int x; /* number of bytes */
 
-	byte = 0;
+	x = 0;
 
 	while (*s != '\0')
 	{
@@ -21,13 +21,13 @@ unsigned int *_strspn(char *s, char *accept)
 	{
 	if (*s == accept[i])
 	{
-		byte++;
+		x++;
 		break;
 	}
 	else if (accept[i + 1] == '\0')
-		return (byte);
+		return (x);
 	}
 	s++;
 	}
-	return (byte);
+	return (x);
 }
