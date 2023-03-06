@@ -5,7 +5,7 @@
 /**
  * _strpbrk - searches a string for a set of bytes
  * @s: string
- * @accept: set of bytes 
+ * @accept: set of bytes
  * Return: pointer to byte in s matching bytes in accept or NULL
  */
 char *_strpbrk(char *s, char *accept)
