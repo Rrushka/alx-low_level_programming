@@ -8,7 +8,7 @@
  * @needle: substring
  * Return: pointer to substring location or NULL
  */
-char *_str(char *haystack, char *needle)
+char *_strstr(char *haystack, char *needle)
 {
 	int i;
 
@@ -31,4 +31,4 @@ char *_str(char *haystack, char *needle)
 		return (haystack);
 	}
 	return ('\0');
-}
+
