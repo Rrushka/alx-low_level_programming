@@ -3,7 +3,7 @@
 /* task 0 */
 
 /**
- * meset - fills memory with a constant byte
+ * memset - fills memory with a constant byte
  * @s: pointer
  * @b: character
  * @n: no. of bytes

@@ -3,7 +3,7 @@
 /* task 1 */
 
 /**
- * memcpy - copies memory area
+ * _memcpy - copies memory area
  * @dest: pointer
  * @src: source
  * @n: no. of bytes to be copied
